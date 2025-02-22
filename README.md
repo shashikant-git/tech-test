@@ -21,7 +21,6 @@ The project uses **Java 17**, **TestNG** as the testing framework, **Selenium We
    ```bash
    git clone https://github.com/shashikant-git/tech-test.git
    cd tech-test
-   git checkout test-brit
 2. **Install Dependencies**
    ```bash
    mvn clean install -DskipTests
