@@ -31,15 +31,17 @@ The project uses **Java 17**, **TestNG** as the testing framework, **Selenium We
 ## Running the Tests:
 
   **Run All Tests:**
-  
-    `mvn clean test`
+
+    mvn clean test
    
   **Run Specific Tests:**
   
     1. UI Test:
-       `mvn test -Dtest=BritInsuranceSearchTest`
+      
+       mvn test -Dtest=BritInsuranceSearchTest
        
     2. API Test:
-       `mvn test -Dtest=RestfulApiPatchTest`
+       
+       mvn test -Dtest=RestfulApiPatchTest
    
    **Logs**: Test execution logs are output to the console via SLF4J/Logback.
